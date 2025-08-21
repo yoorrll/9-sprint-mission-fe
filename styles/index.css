@@ -2,6 +2,10 @@ body {
   min-height: 100vh;
 
   background: #fcfcfc;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  line-height: normal;
 }
 
 h1,
@@ -38,9 +42,7 @@ button {
 .header {
   display: flex;
   width: 100%;
-  /* max-width: 1920px; */
   height: 70px;
-  /* padding: 9px 400px; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -81,9 +83,7 @@ button {
   color: #3692ff;
   font-family: "ROKAF Sans";
   font-size: 25.633px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .login-btn {
@@ -99,9 +99,7 @@ button {
   background: var(--Primary-100, #3692ff);
   color: var(--Cool-Gray-100, #f3f4f6);
 
-  font-family: Pretendard;
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 26px;
 }
@@ -109,7 +107,7 @@ button {
 /*----------main----------*/
 .main,
 .bottom {
-  width: 100%; /*width: 1920px;*/
+  width: 100%;
   height: 540px;
   flex-shrink: 0;
 
@@ -140,9 +138,7 @@ button {
 .section-text-s2,
 .bottom-text {
   color: var(--Secondary-700, #374151);
-  font-family: Pretendard;
   font-size: 40px;
-  font-style: normal;
   font-weight: 700;
   line-height: 140%;
 }
@@ -160,10 +156,7 @@ button {
 
   color: var(--Secondary-50, #f9fafb);
   text-align: center;
-
-  font-family: Pretendard;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
   line-height: 32px;
 }
@@ -185,7 +178,7 @@ button {
 /*----------section----------*/
 .section {
   display: flex;
-  width: 100%; /* width: 1920px; */
+  width: 100%;
   padding: 138px 0;
   flex-direction: column;
   justify-content: center;
@@ -225,10 +218,7 @@ button {
 .section-mini-title,
 .section-mini-title-s2 {
   color: var(--Primary-100, #3692ff);
-
-  font-family: Pretendard;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 26px;
 }
@@ -244,10 +234,7 @@ button {
 .section-paragraph,
 .section-paragraph-s2 {
   color: var(--Secondary-700, #374151);
-
-  font-family: Pretendard;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 32px;
 
@@ -271,29 +258,25 @@ button {
 /*----------footer----------*/
 .footer {
   display: flex;
-  width: 100%; /* width: 1920px; */
+  width: 100%;
   height: 160px;
-  /* padding: 32px 200px; */
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
   flex-shrink: 0;
 
-  background: var(--Secondary-900, #111827);
+  background: var(--Secondary-900);
 }
 
 .footer-text,
 .footer-text-center {
-  color: var(--Secondary-400, #9ca3af);
+  color: var(--Secondary-400);
   text-align: center;
-  font-family: Pretendard;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .footer-text-center {
-  color: var(--Secondary-200, #e5e7eb);
+  color: var(--Secondary-200);
 }
 
 .footer-text-center-frame {
