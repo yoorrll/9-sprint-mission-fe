@@ -25,7 +25,7 @@ body {
   gap: 22.24px;
 }
 
-#logo-img {
+.logo-img {
   width: 103.529px;
   height: 103.88px;
   flex-shrink: 0;
