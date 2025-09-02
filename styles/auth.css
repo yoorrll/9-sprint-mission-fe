@@ -53,10 +53,10 @@ main,
 
 label {
   color: var(--Secondary-800);
-
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.625rem;
+  /* margin-bottom: 1rem; */
 }
 
 input {
@@ -83,6 +83,21 @@ input:focus {
   border: 1px solid var(--Primary-100);
 }
 
+.input-error {
+  border-color: var(--error-red);
+}
+
+.error-message {
+  color: var(--error-red);
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -0.5rem;
+  margin-left: 1rem;
+}
+
 .btn-visibility {
   position: absolute;
   top: 3.625rem;
@@ -98,7 +113,7 @@ input:focus {
   align-items: center;
 }
 
-/*----------login Button----------*/
+/*----------Button----------*/
 .btn-primary {
   display: flex;
   width: 40rem;
@@ -114,6 +129,10 @@ input:focus {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 2rem;
+}
+
+.btn-primary.active {
+  background: var(--Primary-100);
 }
 
 /*----------simple-login----------*/
