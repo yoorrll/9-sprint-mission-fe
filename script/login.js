@@ -6,6 +6,7 @@ import {
   deleteError,
   checkedInputAll,
 } from "./validation.js";
+import { showModal } from "./alert-modal.js";
 
 const emailInput = document.querySelector("#email");
 const passwordInput = document.querySelector("#password");
@@ -41,11 +42,11 @@ inputs.forEach((input) => {
 loginBtn.addEventListener("click", () => {
   const user = USER_DATA.find((data) => data.email === emailInput.value);
   if (!user) {
-    alert("비밀번호가 일치하지 않습니다.");
+    showModal("비밀번호가 일치하지 않습니다.");
     return;
   }
   if (user.password !== passwordInput.value) {
-    alert("비밀번호가 일치하지 않습니다.");
+    showModal("비밀번호가 일치하지 않습니다.");
     return;
   }
   window.location.href = "../pages/items.html";

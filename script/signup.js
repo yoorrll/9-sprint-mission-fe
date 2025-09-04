@@ -8,6 +8,7 @@ import {
   deleteError,
   checkedInputAll,
 } from "./validation.js";
+import { showModal } from "./alert-modal.js";
 
 const emailInput = document.querySelector("#email");
 const passwordInput = document.querySelector("#password");
@@ -51,7 +52,7 @@ signupBtn.addEventListener("click", () => {
     (data) => data.email === emailInput.value
   );
   if (existingUser) {
-    alert("사용 중인 이메일입니다.");
+    showModal("사용 중인 이메일입니다.");
     return;
   }
   alert("회원가입이 완료되었습니다.");
