@@ -1,8 +1,11 @@
+import { ProductProvider } from './context/ProductContext';
+import ProductPage from './pages/ProductPage/ProductPage';
+
 function App() {
   return (
-    <>
-      <div></div>
-    </>
+    <ProductProvider>
+      <ProductPage />
+    </ProductProvider>
   );
 }
 

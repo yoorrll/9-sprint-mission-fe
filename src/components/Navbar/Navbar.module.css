@@ -1,0 +1,61 @@
+.navBar {
+  background-color: #fff;
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  gap: auto;
+  positon: sticky;
+  top: 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.navBarList {
+  display: flex;
+  gap: 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8.59px;
+}
+
+.logoImg {
+  width: 40px;
+  height: 40.135px;
+  flex-shrink: 0;
+}
+
+.logoTitle {
+  color: var(--Primary-100);
+  font-size: 25.633px;
+  font-weight: 700;
+}
+
+.navMenu {
+  display: flex;
+}
+
+.navMenuList {
+  color: var(--Secondary-600);
+  padding: 21px 15px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.loginBtn {
+  background-color: var(--Primary-100);
+  color: var(--Cool-Gray-100);
+  border-radius: 8px;
+  display: flex;
+  height: 42px;
+  padding: 12px 23px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  line-height: 26px;
+}

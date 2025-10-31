@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'ROKAF_Sans';
+  src: url('../fonts/ROKAFSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../fonts/Pretendard-Medium.woff2') format('woff2');
+}
+
+:root {
+  --Primary-100: #3692ff;
+  --Secondary-100: #f3f4f6;
+  --Secondary-400: #9ca3af;
+  --Secondary-600: #4b5563;
+  --Secondary-800: #1f2937;
+  --Secondary-900: #111827;
+  --Cool-Gray-100: #f3f4f6;
+  --Cool-Gray-200: #e5e7eb;
+  --Cool-Gray-600: #4b5563;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Pretendard';
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
+a,
+button,
+input {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+select {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
