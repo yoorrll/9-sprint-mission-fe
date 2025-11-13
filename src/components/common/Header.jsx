@@ -14,7 +14,7 @@ export default function Header() {
             width={40}
             height={40}
           />
-          <Link href="/">
+          <Link href="/articles">
             <h1 className="font-[family-name:var(--font-rokaf-sans)] text-[var(--Primary-100)] text-[25.633px] cursor-pointer">
               판다마켓
             </h1>
@@ -31,9 +31,11 @@ export default function Header() {
         </ul>
       </div>
 
-      <button className="bg-[var(--Primary-100)] text-[var(--White)] rounded-lg flex h-[42px] py-3 px-6 justify-center items-center gap-2 leading-normal font-semibold cursor-pointer">
-        로그인
-      </button>
+      <Link href="/login">
+        <button className="bg-[var(--Primary-100)] text-[var(--White)] rounded-lg flex h-[42px] py-3 px-6 justify-center items-center gap-2 leading-normal font-semibold cursor-pointer">
+          로그인
+        </button>
+      </Link>
     </header>
   );
 }
