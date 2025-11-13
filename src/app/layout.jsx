@@ -1,6 +1,4 @@
 import localFont from "next/font/local";
-import Header from "@/components/common/Header";
-import Footer from "@/components/common/Footer";
 import "./globals.css";
 
 const pretendard = localFont({
@@ -25,9 +23,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${pretendard.className} ${rokafSans.variable} antialiased`}
       >
-        <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );
